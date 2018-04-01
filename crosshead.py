@@ -502,7 +502,7 @@ if (len(sys.argv) == 1):
 	print bcolors.RED+"[!] Enter a valid URL"+bcolors.ENDC
 	print bcolors.GREEN+"Ex: python crosshead.py http://google.es"+bcolors.ENDC
 	print bcolors.BLUE+"[#] Options available:"
-	print "	--proxy (Use proxy for your connections)"
+	print "	--proxy (Use proxy for your connections, editing it before in the code)"
 	print "	--proxy-tor (Use TOR proxy for your connections)"
 	print "	--verify (Verify SSL Certificate, value for default: false)"
 	print"\t\tNOTE: This option don't force the SSL protocol, only verify the certified"
