@@ -341,11 +341,11 @@ def analyze(cabecera):
 		print(bcolors.HEADER + "[-]" + bcolors.ENDC+" OVH Server Detected\n")
 		pfinger += "[-] OVH Server Detected\n"
 	if "x-cdn-geo" in cabecera.lower():
-		print(bcolors.HEADER + "[-]" + bcolors.ENDC+" OVH Server Location found\n")
+		print(bcolors.HEADER + "[-]" + bcolors.ENDC+" OVH Server found\n")
 		pfinger += "[-] OVH Server Location found\n"
 	if "x-github-request-id" in cabecera.lower():
-		print(bcolors.HEADER + "[-]" + bcolors.ENDC+" GitHub Server Location found\n")
-		pfinger += "[-] GitHub Server Location found\n"
+		print(bcolors.HEADER + "[-]" + bcolors.ENDC+" GitHub Server found\n")
+		pfinger += "[-] GitHub Server found\n"
 	if "x-powered-by" in cabecera.lower() or 'powered' in cabecera.lower():
 		print(bcolors.HEADER + "[-]" + bcolors.ENDC+" X-Powered-By Detected \n")
 		pfinger += "[-] X-Powered-By Detected\n"
